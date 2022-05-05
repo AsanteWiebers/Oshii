@@ -2,8 +2,11 @@
 
 :root {
   --primary-clr-beige: #eed9bc;
+  --primary-clr-black: #000000;
   --primary-clr-red: #ee2619;
+  --primary-clr-dark-red: #630606;
   --primary-clr-dark-green: #26291f;
+  --primary-clr-green: #6ebf8b;
   --primary-clr-orange: #f9ac83;
   --primary-clr-light-beige: #f3f0e7;
   --primary-clr-white: #fff;
@@ -24,3 +27,51 @@ body {
   padding: 0;
   margin: 0;
 }
+
+// utility classes
+
+.flex {
+  display: flex;
+}
+
+.container {
+  padding: 0 2em;
+  margin: 0 auto;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.text-black {
+  color: var(--primary-clr-black);
+}
+
+.text-beige {
+  color: var(--primary-clr-beige);
+}
+
+.text-red {
+  color: var(--primary-clr-red);
+}
+
+.text-orange {
+  color: var(--primary-clr-orange);
+}
+
+.bg-beige {
+  background: var(--primary-clr-beige);
+}
+
+.bg-light-beige {
+  background: var(--primary-clr-light-beige);
+}
+
+.bg-light-green {
+  background: var(--primary-clr-green);
+}
+
+.bg-dark-red {
+  background: var(--primary-clr-dark-red);
+}
+//
