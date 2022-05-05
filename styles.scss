@@ -2,6 +2,7 @@
 @use "utility";
 
 body {
+  font-family: var(--ff-sans-serif);
   line-height: 1.6;
   min-height: 100vh;
 }
@@ -70,5 +71,12 @@ header {
   .banner-logo {
     align-content: center;
     margin: 15em auto;
+  }
+
+  .hero_cta {
+    margin: 0 auto 5em;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
   }
 }
