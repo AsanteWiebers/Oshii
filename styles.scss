@@ -37,6 +37,38 @@ select {
 header {
   nav {
     display: flex;
-    border: 5px solid var(--primary-clr-dark-red);
+    justify-content: space-between;
+    padding: 2em 1.5em;
+
+    .homeLogo {
+      width: 100px;
+    }
+
+    .hamburger {
+      display: block;
+      cursor: pointer;
+      color: var(--primary-clr-beige);
+    }
+
+    .navigation,
+    .close {
+      display: none;
+    }
+  }
+}
+
+.hero {
+  .showcase {
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
+  }
+
+  .banner-logo {
+    align-content: center;
+    margin: 15em auto;
   }
 }
