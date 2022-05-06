@@ -1,0 +1,14 @@
+.btn-red {
+  border: 2px solid var(--primary-clr-red);
+  background-color: var(--primary-clr-light-beige);
+  color: var(--primary-clr-red);
+  cursor: pointer;
+  padding: 1em;
+  width: 320px;
+  margin: 0 auto;
+}
+
+.btn-red:hover {
+  background-color: var(--primary-clr-red);
+  color: var(--primary-clr-white);
+}

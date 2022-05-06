@@ -1,5 +1,6 @@
 @use "base";
 @use "utility";
+@use "buttons";
 
 body {
   font-family: var(--ff-sans-serif);
@@ -97,6 +98,7 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: hsl(var(--clr-dark) / 0.5);
   width: 100%;
   height: 100vh;
 
@@ -110,5 +112,24 @@ header {
     text-align: center;
     text-decoration: underline;
     text-decoration-thickness: 2px;
+  }
+}
+
+.page-section {
+  background-color: var(--primary-clr-light-beige);
+  display: flex;
+  flex-direction: column;
+  height: 110vh;
+
+  .page_heading {
+    margin: 2em auto 0.5em;
+    text-align: center;
+    width: 60%;
+  }
+
+  .page_text {
+    margin: 1em auto;
+    text-align: center;
+    padding: 0 2em;
   }
 }
