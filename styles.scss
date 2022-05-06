@@ -64,7 +64,7 @@ header {
     object-fit: cover;
     position: absolute;
     top: 0;
-    height: 100vh;
+    height: 106vh;
     width: 100%;
     z-index: -1;
   }
@@ -83,12 +83,14 @@ header {
 }
 
 .info-section {
+  background-color: var(--primary-clr-light-beige);
   text-align: center;
-  height: 105vh;
+  height: 100vh;
   padding: 0 2em;
 
   .info_header {
-    margin: 3em auto 2em;
+    padding: 1.5em 0 2em;
+    margin: 0 auto;
     width: 80%;
   }
 }
@@ -119,7 +121,7 @@ header {
   background-color: var(--primary-clr-light-beige);
   display: flex;
   flex-direction: column;
-  height: 110vh;
+  height: 120vh;
 
   .page_heading {
     margin: 2em auto 0.5em;
@@ -132,4 +134,38 @@ header {
     text-align: center;
     padding: 0 2em;
   }
+}
+
+.company-section {
+  background: var(--primary-clr-beige);
+  .price-image {
+    padding: 2em 0 2em;
+    margin: 0 auto;
+  }
+
+  .price-text {
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+  }
+  .cta_price {
+    padding: 0 0 3em;
+  }
+}
+
+.gallery-section {
+  .logo_dark {
+    padding: 3em 0 3em;
+    margin: 0 auto;
+    width: 80%;
+  }
+}
+
+.cta-bg {
+  background-image: url(/assets/Images/OishiiSSWeb_forDev_Page_01_Image_0009.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
 }
