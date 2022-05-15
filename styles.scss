@@ -16,6 +16,7 @@ body {
   margin: 0;
 }
 
+a,
 ul,
 li {
   list-style: none;
@@ -36,6 +37,7 @@ select {
 }
 
 //
+
 header {
   nav {
     display: flex;
@@ -219,5 +221,36 @@ footer {
   }
   .copyright {
     padding: 1em 0;
+  }
+}
+
+// Bigger Devices
+
+@media (min-width: 900px) {
+  header {
+    margin: 1em 0 0;
+    nav {
+      .homeLogo {
+        width: 20%;
+      }
+
+      .navigation {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        flex-wrap: nowrap;
+        width: 100%;
+
+        li {
+          color: var(--primary-clr-white);
+          margin: 0 1em 0;
+          text-transform: uppercase;
+        }
+      }
+
+      .hamburger {
+        display: none;
+      }
+    }
   }
 }
