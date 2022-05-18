@@ -259,12 +259,6 @@ footer {
     }
   }
 
-  // .hero {
-  //   .hero_cta {
-  //     border: 1px solid red;
-  //   }
-  // }
-
   .info-section {
     .info_header {
       max-width: 550px;
@@ -300,5 +294,10 @@ footer {
       text-align: center;
       width: 50%;
     }
+  }
+
+  .footer_container {
+    display: flex;
+    justify-content: space-between;
   }
 }
