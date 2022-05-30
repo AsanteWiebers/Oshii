@@ -127,6 +127,15 @@ header {
   display: flex;
   flex-direction: column;
   height: 120vh;
+  padding: 5em 0;
+
+  .desk_page_img {
+    display: none;
+  }
+
+  .page_box_1 {
+    text-align: center;
+  }
 
   .page_heading {
     margin: 2em auto 0.5em;
@@ -139,6 +148,11 @@ header {
     text-align: center;
     padding: 0 2em;
   }
+}
+
+.narrow_wrapper {
+  padding: unset;
+  margin: 0 auto;
 }
 
 .company-section {
