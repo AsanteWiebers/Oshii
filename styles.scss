@@ -100,7 +100,7 @@ header {
 }
 
 .bg-news {
-  background-image: url(/assets/Images/OishiiSSWeb_forDev_Page_01_Image_0002.jpg);
+  background-image: url(/../assets/Images/OishiiSSWeb_forDev_Page_01_Image_0002.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -182,7 +182,7 @@ header {
 }
 
 .cta-bg {
-  background-image: url(/assets/Images/OishiiSSWeb_forDev_Page_01_Image_0009.jpg);
+  background-image: url(/../assets/Images/OishiiSSWeb_forDev_Page_01_Image_0009.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -311,8 +311,22 @@ footer {
     }
   }
 
+  .company-section {
+    .price-text {
+      max-width: 500px;
+    }
+  }
+
   .footer_container {
     display: flex;
     justify-content: space-between;
+  }
+}
+
+@media (min-width: 1920px) {
+  .bg-news {
+    .news_cta {
+      font-size: 3rem;
+    }
   }
 }
