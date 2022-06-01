@@ -1,4 +1,11 @@
-
+function openMenu (){
+    var x = document.getElementsByClassName('navigation');
+    if(x.style.display === "block") {
+        x.style.display = "none";
+    }   else {
+        x.style.display ="block";
+    }
+}
 
 ScrollReveal({
     reset: true,
